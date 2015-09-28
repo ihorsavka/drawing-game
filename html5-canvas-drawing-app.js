@@ -61,6 +61,8 @@ sizeHotspotWidthObject.small = 16;
 var totalLoadResources = 8;
 var curLoadResNum = 0;
 
+
+
 /*saving image*/
 function saveImg (){
 	var context = canvas.getContext('2d');
@@ -137,6 +139,8 @@ function prepareCanvas()
 	outlineImage.src = "images/watermelon-duck-outline.png";
 // http://cdn.flaticon.com/png/256/53691.png
 // outlineImage.src = "http://cdn.flaticon.com/png/256/53691.png";
+
+
 	// Add mouse events
 	// ----------------
 	$('#canvas').mousedown(function(e)

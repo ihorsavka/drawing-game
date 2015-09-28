@@ -7,6 +7,11 @@
   </head>
   <body>
     <section style="width: 100vw; display: flex; justify-content: center; align-items: center; text-align: center;">
+      <input type="file" name="img" id="img" onChange="displayImg(this)">
+
+
+    </section>
+    <section style="width: 100vw; display: flex; justify-content: center; align-items: center; text-align: center;">
       <div id="canvasDiv"></div>
 
 
@@ -28,6 +33,7 @@
         };
         downloadLnk.addEventListener('click', download, false);
       });
+      
     </script>
   </body>
 </html>
