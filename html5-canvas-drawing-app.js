@@ -135,7 +135,8 @@ function prepareCanvas()
 	outlineImage.onload = function() { resourceLoaded();
 	};
 	outlineImage.src = "images/watermelon-duck-outline.png";
-
+// http://cdn.flaticon.com/png/256/53691.png
+// outlineImage.src = "http://cdn.flaticon.com/png/256/53691.png";
 	// Add mouse events
 	// ----------------
 	$('#canvas').mousedown(function(e)

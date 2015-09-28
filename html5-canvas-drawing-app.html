@@ -1,15 +1,25 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>HTML5 Create HTML5 Canvas JavaScript Drawing App Example</title>
+    <title></title>
     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.js"></script>
     <script type="text/javascript" src="html5-canvas-drawing-app.js"></script>
   </head>
   <body>
-    <div id="canvasDiv"></div>
-    <img id="canvasImg" alt="Right click to save me!">
-    <button onclick="saveImg()">save</button>
-    <a id="downloadLnk" download="YourFileName.jpg">Download as image</a>
+    <section style="width: 100vw; display: flex; justify-content: center; align-items: center; text-align: center;">
+      <div id="canvasDiv"></div>
+
+
+    </section>
+    <section style="width: 100vw; display: flex; justify-content: center; align-items: center; text-align: center;">
+      <img id="canvasImg" alt="Right click to save me!">
+    </section>
+    <section style="width: 100vw; display: flex; justify-content: center; align-items: center; text-align: center;">
+      <button onclick="saveImg()">save</button>
+    </section>
+    <section style="width: 100vw; display: flex; justify-content: center; align-items: center; text-align: center;">
+      <a id="downloadLnk" download="YourFileName.jpg">Download as image</a>
+    </section>
     <script type="text/javascript"> $(document).ready(function() {
     	 prepareCanvas();
        function download() {
